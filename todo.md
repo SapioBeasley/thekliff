@@ -1,31 +1,31 @@
 ## ToDo
 
-[] Remove Blog
-- Get subcategories working
-- Need text for footer call to action
-- Add categories to products
-- Link facebook in footer
-- Create Logo
-- Get proper contact and hour information
-- Integrate paypal
-- integrate easypost
-- Add header to shipping
-- Put shipping costs in tables
-- add header to return policy
-- add header to privacy
-- get content for contact page
-- should footer blog links stay?
-- validation and error checking for contact form
-- valifation and error checking for login form
-- valifation and error checking for registration
-- keep footer blog links on about page?
-- Set up newsletter box on home page
-- Change latest news box to latest items
-- link free shipping box to shop
-- change 'THIS IS BACKGROUND COLOR' to say something more appropriate
-- relate images to products
-- add description to products
-- add in stock/out of stock option to products
+- [] Remove Blog
+- [] Get subcategories working
+- [] Need text for footer call to action
+- [] Add categories to products
+- [] Link facebook in footer
+- [] Create Logo
+- [] Get proper contact and hour information
+- [] Integrate paypal
+- [] integrate easypost
+- [] Add header to shipping
+- [] Put shipping costs in tables
+- [] add header to return policy
+- [] add header to privacy
+- [] get content for contact page
+- [] should footer blog links stay?
+- [] validation and error checking for contact form
+- [] valifation and error checking for login form
+- [] valifation and error checking for registration
+- [] keep footer blog links on about page?
+- [] Set up newsletter box on home page
+- [] Change latest news box to latest items
+- [] link free shipping box to shop
+- [] change 'THIS IS BACKGROUND COLOR' to say something more appropriate
+- [] relate images to products
+- [] add description to products
+- [] add in stock/out of stock option to products
 - add color/size/qty options to products
 - add to cart button on single product ajax to cart
 - cart dropdown ajax to request order information
