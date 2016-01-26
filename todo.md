@@ -1,0 +1,55 @@
+## ToDo
+
+[] Remove Blog
+- Get subcategories working
+- Need text for footer call to action
+- Add categories to products
+- Link facebook in footer
+- Create Logo
+- Get proper contact and hour information
+- Integrate paypal
+- integrate easypost
+- Add header to shipping
+- Put shipping costs in tables
+- add header to return policy
+- add header to privacy
+- get content for contact page
+- should footer blog links stay?
+- validation and error checking for contact form
+- valifation and error checking for login form
+- valifation and error checking for registration
+- keep footer blog links on about page?
+- Set up newsletter box on home page
+- Change latest news box to latest items
+- link free shipping box to shop
+- change 'THIS IS BACKGROUND COLOR' to say something more appropriate
+- relate images to products
+- add description to products
+- add in stock/out of stock option to products
+- add color/size/qty options to products
+- add to cart button on single product ajax to cart
+- cart dropdown ajax to request order information
+- remove tags
+- list product categories on single product
+- add Type, Fabric,  Sleeves, Neck, Fit, Length, Color to products
+- remove blog links from single product
+- remove clear button from single product
+- check forgot password flow
+- option to add user avatar
+- link header text to proper location
+- calculate order reveue for total revenue
+- place total orders on dashboard
+- limit recent orders on dashboard to 5 orders
+- order orders buy newest
+- relate products to orders
+- link order number to order show page
+- add link to create product on header
+- link view all button on dash to orders page
+- edit and delete buttons on orders functioning
+- add total product box to dash
+- edit delete prduct on product page
+- link product image to view page in admin
+- move edit save remove buttons to top someplace in admin
+- list product images in admin product edit
+- only show image edit for edit and not new
+- add validation on product admin forms
