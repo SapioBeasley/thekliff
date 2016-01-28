@@ -15,6 +15,10 @@
 - [ ] add header to privacy
 - [ ] get content for contact page
 - [ ] should footer blog links stay?
+- [ ] customer or admin user roles
+- [ ] customer shipping or billing address
+- [ ] customer orders page
+- [ ] customer track order
 - [ ] validation and error checking for contact form
 - [ ] valifation and error checking for login form
 - [ ] valifation and error checking for registration
@@ -29,7 +33,7 @@
 - [ ] add color/size/qty options to products
 - [ ] add to cart button on single product ajax to cart
 - [ ] cart dropdown ajax to request order information
-- [ ] remove tags
+- [X] remove tags
 - [ ] list product categories on single product
 - [ ] add Type, Fabric,  Sleeves, Neck, Fit, Length, Color to products
 - [ ] remove blog links from single product
