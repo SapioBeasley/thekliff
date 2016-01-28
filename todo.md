@@ -36,8 +36,6 @@
 - [ ] link order number to order show page
 - [ ] edit and delete buttons on orders functioning
 - [ ] edit delete prduct on product page
-- [ ] link view all button on dash to orders page
-
 - [ ] move edit save remove buttons to top someplace in admin
 - [ ] list product images in admin product edit
 - [ ] only show image edit for edit and not new
@@ -61,6 +59,7 @@
 - [x] remove clear button from single product
 - [x] limit recent orders on dashboard to 5 orders
 - [x] add link to create product on header
+- [x] link view all button on dash to orders page
 
 ### Need from client
 - [ ] Need text for footer call to action
