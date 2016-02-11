@@ -47,13 +47,13 @@
 
                 <!-- image box -->
                 <div class="col-md-6 no-padding">
-                    {{-- @include('includes.menOnly') --}}
+                    @include('includes.menOnly')
                 </div>
                 <!-- .image box -->
 
                 <!-- image box -->
                 <div class="col-md-6 no-padding">
-                    {{-- @include('includes.womenOnly') --}}
+                    @include('includes.womenOnly')
                 </div>
                 <!-- .image box -->
 
@@ -101,7 +101,8 @@
 
                                                         <!-- image -->
                                                         <div class="product-image">
-                                                            <a href="{{route('shop.show', $product['id'])}}"><img src="images/product-3.png" class="img-responsive" title="" alt=""/>
+                                                            <a href="{{route('shop.show', $product['id'])}}">
+                                                                <img src="{{$product['images'][0]['image_url']}}" class="img-responsive" title="" alt=""/>
                                                             </a>
 
                                                             <!-- add to cart -->
