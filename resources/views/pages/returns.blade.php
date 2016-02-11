@@ -48,6 +48,16 @@
                     <div class="col-md-8 no-padding col-sm-offset-2">
                         <div class="blog-single-content-wrap">
 
+                                <!-- title -->
+                                <div class="blog-single-title">
+                                    <h1>RETURNS</h1>
+
+                                    <p class="blog-single-date"> IMPORTANT RETURN INFORMATION
+                                    </p>
+                                    <span class="bottom-border"></span>
+                                </div>
+                                <!-- .title -->
+
                                 <!-- content -->
                                 <div class="blog-single-content">
                                     <p>RETURNS & REPLACEMENTS THE KLIFF does not accept returns on products ordered from THEKLIFF.com after 5 days of you receiving it. Accessories, Swimwear, and Vintage items are NOT returnable, but if they are defective we will send you out new product. Your return form and invoice provide a postmark date that specifies the last day you have to return your merchandise by mail. Merchandise returned will be eligible for exchange or store credit towards your next purchase. Final sale items cannot be returned or exchanged.</p>
