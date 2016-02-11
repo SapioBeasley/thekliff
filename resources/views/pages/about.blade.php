@@ -36,18 +36,6 @@
     </section>
     <!-- .home slider -->
 
-{{--     <!-- breadcrumbs -->
-    <section>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="breadcrumbs">
-                    <a href="about.html#">ABOUT US</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- .breadcrumbs --> --}}
-
     <!-- body content -->
     <section>
         <div class="container-fluid">
