@@ -5,7 +5,7 @@
 @section('content')
 <div class="row">
 	<div class="col-sm-12">
-		{!! Form::open(['route' => ['admin.product.create']]) !!}
+		{!! Form::open(['route' => ['admin.product.store']]) !!}
 
 			@include('admin.includes.productForm')
 
