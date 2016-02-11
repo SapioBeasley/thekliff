@@ -48,6 +48,16 @@
                     <div class="col-md-8 no-padding col-sm-offset-2">
                         <div class="blog-single-content-wrap">
 
+                                <!-- title -->
+                                <div class="blog-single-title">
+                                    <h1>PRIVACY POLICY</h1>
+
+                                    <p class="blog-single-date"> YOUR PRIVACY AND SECURITY IS IMPORTANT
+                                    </p>
+                                    <span class="bottom-border"></span>
+                                </div>
+                                <!-- .title -->
+
                                 <!-- content -->
                                 <div class="blog-single-content">
                                     <p>Your Privacy and the Security of Your Personal Information is Very Important to Us</p>
