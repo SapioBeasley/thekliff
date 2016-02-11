@@ -14,6 +14,9 @@ class OrdersTableSeeder extends Seeder
 	public function run()
 	{
 		$orderMake = [
+			'8',
+			'7',
+			'6',
 			'5',
 			'4',
 			'3',
@@ -25,6 +28,10 @@ class OrdersTableSeeder extends Seeder
 			$order = CrudHelper::store(new App\Order,  [
 				'amount' => rand(2, 14) * 5.9,
 			]);
+
+			$order = CrudHelper::show(new App\Order, 'id', $order['id'])->first();
+
+			$order->products()->sync(['1','2','3']);
 		}
 	}
 }
