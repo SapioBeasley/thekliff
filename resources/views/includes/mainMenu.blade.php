@@ -44,6 +44,6 @@
 		<li><a href="{{route('category.show', ['sales', 'women'])}}">Women</a></li>
 	</ul>
 </li>
-<li>
+{{-- <li>
 	<a href="{{route('blog.index')}}">From Blog</a>
-</li>
+</li> --}}
