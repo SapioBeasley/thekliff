@@ -52,11 +52,6 @@ Route::group(['middleware' => 'web'], function () {
 		'uses' => 'CheckoutController@index'
 	]);
 
-	Route::get('/blog', [
-		'as' => 'blog.index',
-		'uses' => 'BlogController@index'
-	]);
-
 	Route::get('/shipping', [
 		'as' => 'shipping.index',
 		'uses' => 'PagesController@showShipping'
@@ -106,17 +101,24 @@ Route::group(['middleware' => 'web'], function () {
 		Route::get('/', 'AdminController@dashboard');
 		Route::get('/orders', 'AdminController@showOrders');
 		Route::get('/products', 'AdminController@showProducts');
-		Route::get('/products/{id}', 'AdminController@editProducts');
 
 		Route::put('/products/{id}/update', [
 			'as' => 'admin.product.update',
 			'uses' => 'AdminController@updateProducts'
 		]);
 
-		Route::post('/products/create', [
+		Route::get('/products/create', [
 			'as' => 'admin.product.create',
 			'uses' => 'AdminController@createProducts'
 		]);
+
+		Route::get('/products/store', [
+			'as' => 'admin.product.store',
+			'uses' => 'AdminController@storeProducts'
+		]);
+
+		Route::get('/products/{id}', 'AdminController@editProducts');
+
 
 	});
 });
