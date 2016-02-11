@@ -33,7 +33,16 @@ class ProductsTableSeeder extends Seeder
 			$product = CrudHelper::store(new App\Product,  [
 				'name' => 'Test Product ' . str_random(20),
 				'price' => rand(2, 14) * 5.9,
+				'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in leo quis neque cursus laoreet. Vestibulum sed placerat dolor. Donec sem purus, pulvinar quis felis eu, pharetra pharetra turpis. Praesent blandit, mauris nec euismod vulputate, nisl ex egestas purus, sed iaculis sem ipsum sed sem. Etiam ultrices lacus eu ante fringilla viverra. Cras ac pellentesque ipsum, et vulputate nulla. Duis consequat, tortor non pulvinar mollis, est orci eleifend ex, in rutrum risus augue nec enim. Donec dapibus mauris sit amet diam laoreet vehicula.',
 			]);
+
+			$product = CrudHelper::show(new App\Product, 'id', $product['id'])->first();
+
+			$category = (string) rand(1, 10);
+			$images = (string) rand(1, 10) . ',' . rand(1, 10) . ',' . rand(1, 10) . ',' . rand(1, 10) . ',' . rand(1, 10);
+
+			$product->categories()->sync([$category]);
+			$product->images()->sync([$images]);
 		}
 	}
 }
