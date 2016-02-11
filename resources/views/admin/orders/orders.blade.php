@@ -9,7 +9,6 @@
                 <table class="table table-actions-bar">
                     <thead>
                         <tr>
-                            <th>Product</th>
                             <th>Order Date</th>
                             <th>Order Number</th>
                             <th>Amount</th>
