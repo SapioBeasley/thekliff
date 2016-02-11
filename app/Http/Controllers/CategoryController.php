@@ -24,10 +24,11 @@ class CategoryController extends Controller
 			// dd($request->query()['subcategory']);
 		}
 
-		$products = $products->get()->toArray();
+		$products = $products->get();
 
 		return view('shop.shop')->with([
-			'products' => $products
+			'products' => $products,
+			'category' => $category
 		]);
 	}
 }
