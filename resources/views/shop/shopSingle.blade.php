@@ -81,9 +81,7 @@
                                 <p class="product-single-date">IN STOCK - SHIPPING AVAILABLE</p>
                                 <span class="bottom-border"></span>
 
-                                <p class="product-short-description">Sed ut perspiciatis unde omnis iste natus error sit
-                                    volupt atem accusantium dol oremque laudantium, totam rem aperiam, eaque ipsa quae
-                                    ab illo inv, ntore veritatis et.</p>
+                                <p class="product-short-description">{{$product['description']}}</p>
                                 <!-- .short descript -->
 
                                 <!-- title -->
@@ -137,12 +135,6 @@
                                             <input type="number" value="0" step="1"/>
                                         </div>
                                         <!-- .select -->
-
-                                        <!-- clear -->
-                                        <div class="select-box clear">
-                                            <a href="#">CLEAR</a>
-                                        </div>
-                                        <!-- .clear -->
 
                                         <hr/>
 
@@ -474,14 +466,6 @@
                                     <div class="blog-single-meta-wrap">
                                         <div class="blog-single-meta-background">
 
-                                            <!-- tags -->
-                                            <div class="blog-single-tags">
-                                                <p>TAGS:<a href="#">LORE</a>, <a href="#">IPSUM</a>, <a
-                                                        href="#">DOLOR</a>, <a href="#">AMET</a>, <a href="#">VELUM</a>
-                                                </p>
-                                            </div>
-                                            <!-- .tags -->
-
                                             <!-- categories -->
                                             <div class="blog-single-categories">
                                                 <p>CATEGORIES:<a href="#">LORE</a>, <a href="#">IPSUM</a>, <a href="#">DOLOR</a>,
@@ -509,16 +493,12 @@
 
                                 <!-- navs -->
                                 <ul class="nav nav-tabs" role="tablist">
-                                    <li role="presentation" class="active"><a href="#details" aria-controls="details"
-                                                                              role="tab" data-toggle="tab">DETAILS</a>
+                                    <li role="presentation" class="active">
+                                        <a href="#details" aria-controls="details" role="tab" data-toggle="tab">DETAILS</a>
                                     </li>
-                                    <li role="presentation"><a href="#washinginstructions"
-                                                               aria-controls="washinginstructions" role="tab"
-                                                               data-toggle="tab">WASHING INSTRUCTIONS</a>
+                                    <li role="presentation">
+                                        <a href="#washinginstructions" aria-controls="washinginstructions" role="tab" data-toggle="tab">WASHING INSTRUCTIONS</a>
                                     </li>
-                                    {{-- <li role="presentation"><a href="#reviews" aria-controls="reviews" role="tab"
-                                                               data-toggle="tab">REVIEWS (5)</a>
-                                    </li> --}}
                                 </ul>
                                 <!-- nav -->
 
