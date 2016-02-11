@@ -13,7 +13,7 @@ class IndexController extends Controller
 {
 	public function showHome()
 	{
-		$products = CrudHelper::index(new \App\Product)->take(8);
+		$products = CrudHelper::index(new \App\Product, ['images'])->take(8)->orderBy('id', 'DESC')->get();
 
 		return view('pages.index')->with([
 			'products' => $products
