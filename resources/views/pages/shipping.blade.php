@@ -36,18 +36,6 @@
     </section>
     <!-- .home slider -->
 
-{{--     <!-- breadcrumbs -->
-    <section>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="breadcrumbs">
-                    <a href="about.html#">Shipping</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- .breadcrumbs --> --}}
-
     <!-- body content -->
     <section>
         <div class="container-fluid">
@@ -59,6 +47,16 @@
                     <!-- content -->
                     <div class="col-md-8 no-padding col-sm-offset-2">
                         <div class="blog-single-content-wrap">
+
+                                <!-- title -->
+                                <div class="blog-single-title">
+                                    <h1>SHIPPING INFORMATION</h1>
+
+                                    <p class="blog-single-date"> FREE SHIPPING ON ORDERS OVER $80
+                                    </p>
+                                    <span class="bottom-border"></span>
+                                </div>
+                                <!-- .title -->
 
                                 <!-- content -->
                                 <div class="blog-single-content">
