@@ -72,14 +72,14 @@
                                     <div class="col-md-12">
                                         <p class="comment-form-password">
                                             <label for="password">PASSWORD<span class="required">*</span></label>
-                                            <input id="password" name="password" type="text" value="" size="30">
+                                            <input id="password" name="password" type="password" value="" size="30">
                                         </p>
                                     </div>
 
                                     <div class="col-md-12">
                                         <p class="comment-form-password-repeat">
                                             <label for="repeat-password">REPEAT PASSWORD <span class="required">*</span></label>
-                                            <input id="repeat-password" name="password_confirmation" type="text" value="" size="30">
+                                            <input id="repeat-password" name="password_confirmation" type="password" value="" size="30">
                                         </p>
                                     </div>
 
