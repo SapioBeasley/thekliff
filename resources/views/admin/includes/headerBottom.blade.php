@@ -13,6 +13,10 @@
 		<li class="has-submenu">
 			<a href="{{url('admin/orders')}}"><i class="md md-shopping-cart"></i>Orders</a>
 		</li>
+
+		<li class="has-submenu">
+			<a href="{{url('admin/products/create')}}"><i class="md md-shopping-cart"></i>CreateProduct</a>
+		</li>
 	</ul>
 	<!-- End navigation menu -->
 
