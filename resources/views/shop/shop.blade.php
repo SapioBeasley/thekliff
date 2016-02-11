@@ -28,19 +28,19 @@
         <div class="row">
 
             @if (! empty($products))
-                <div class="col-md-3 no-padding">
+                {{-- <div class="col-md-3 no-padding">
                     @include('includes.shop.shopSidebar')
-                </div>
-                <div class="col-md-9 body-content products">
+                </div> --}}
+                <div class="col-md-12 body-content products">
                     <div class="row">
 
                         @foreach ($products as $product)
-                            <div class="col-md-4">
+                            <div class="col-md-3">
                                 <div class="product-box-wrap">
                                     <div class="product-box">
                                         <div class="product-image">
                                             <a href="{{route('shop.show', $product['id'])}}">
-                                                <img src="images/product-2.png" class="img-responsive" title="" alt=""/>
+                                                <img src="{{$product['images'][0]['image_url']}}" class="img-responsive" title="" alt=""/>
                                             </a>
                                             <div class="product-button">
                                                 <a href="{{route('shop.show', $product['id'])}}">ADD TO CART</a>
