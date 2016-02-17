@@ -1,6 +1,4 @@
 ## ToDo
-
-- [ ] Get subcategories working
 - [ ] Link facebook in footer
 - [ ] Create Logo
 - [ ] Integrate paypal
@@ -17,9 +15,7 @@
 - [ ] add color/size/qty options to products
 - [ ] add to cart button on single product ajax to cart
 - [ ] cart dropdown ajax to request order information
-- [ ] list product categories on single product
 - [ ] add Type, Fabric,  Sleeves, Neck, Fit, Length, Color to products
-- [ ] check forgot password flow
 - [ ] Link women box to women
 - [ ] Link men box to men
 - [ ] product save and delet button function
@@ -38,6 +34,7 @@
 
 ### Done
 - [x] Remove Blog
+- [x] list product categories on single product
 - [x] order orders by newest
 - [x] Save full url to product images
 - [x] link order number to order show page
@@ -46,8 +43,10 @@
 - [x] Remove clear
 - [x] keep footer blog links on about page?
 - [x] place total orders on dashboard
+- [x] Get subcategories working
 - [x] User roles for admin
 - [x] customer or admin user roles
+- [x] check forgot password flow
 - [x] calculate order reveue for total revenue
 - [x] description input on admin
 - [x] remove footer blog links stay?
