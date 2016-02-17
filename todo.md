@@ -6,12 +6,11 @@
 - [ ] Integrate paypal
 - [ ] integrate easypost
 - [ ] Put shipping costs in tables
-- [ ] remove footer blog links stay?
-- [ ] keep footer blog links on about page?
+- [ ] Paypal split payments
 - [ ] remove blog links from single product
 - [ ] customer shipping or billing address
 - [ ] customers orders page
-- [ ] customer track order
+- [ ] customer track order (easypost)
 - [ ] Set up newsletter box on home page
 - [ ] change 'THIS IS BACKGROUND COLOR' to say something more appropriate
 - [ ] add in stock/out of stock option to products
@@ -21,33 +20,37 @@
 - [ ] list product categories on single product
 - [ ] add Type, Fabric,  Sleeves, Neck, Fit, Length, Color to products
 - [ ] check forgot password flow
+- [ ] Link women box to women
+- [ ] Link men box to men
 - [ ] product save and delet button function
 - [ ] option to add user avatar
 - [ ] link header text to proper location
 - [ ] if admin logs in, redirect to admin dashboard else redirect to user account manage
 - [ ] in admin, upload images to products
-- [ ] link order number to order show page
 - [ ] edit and delete buttons on orders functioning
 - [ ] edit delete prduct on product page
 - [ ] move edit save remove buttons to top someplace in admin
 - [ ] only show image edit for edit and not new
 - [ ] add validation on product admin forms
 - [ ] validation and error checking for contact form
-- [ ] valifation and error checking for login form
-- [ ] valifation and error checking for registration
+- [ ] validation and error checking for login form
+- [ ] validation and error checking for registration
 
 ### Done
 - [x] Remove Blog
 - [x] order orders by newest
 - [x] Save full url to product images
+- [x] link order number to order show page
 - [x] relate products to orders
 - [x] list product images in admin product edit
 - [x] Remove clear
+- [x] keep footer blog links on about page?
 - [x] place total orders on dashboard
 - [x] User roles for admin
 - [x] customer or admin user roles
 - [x] calculate order reveue for total revenue
 - [x] description input on admin
+- [x] remove footer blog links stay?
 - [x] remove tags
 - [x] registration password inputs set to password type
 - [x] Order products by newest
