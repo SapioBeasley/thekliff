@@ -45,35 +45,37 @@
 		<div class="card-box">
 			<h5 class="text-muted text-uppercase m-t-0 m-b-30"><b>Product Image</b></h5>
 
-			@foreach($product['images'] as $image)
-				<div class="table-box m-b-30">
+			@if (isset($product))
+				@foreach($product['images'] as $image)
+					<div class="table-box m-b-30">
 
-					<div class="table-detail">
-						<img src="{{$image['image_url']}}" class="thumb-md" alt="img">
-					</div>
-
-					<div class="table-detail">
-						<div class="radio radio-inline">
-							<input type="radio" id="inlineRadio4" value="option1" name="radioInline2" checked="">
-							<label for="inlineRadio4"> Main Image </label>
+						<div class="table-detail">
+							<img src="{{$image['image_url']}}" class="thumb-md" alt="img">
 						</div>
-						<div class="radio radio-inline">
-							<input type="radio" id="inlineRadio5" value="option2" name="radioInline2">
-							<label for="inlineRadio5"> Thumbnail </label>
-						</div>
-						<div class="radio radio-inline">
-							<input type="radio" id="inlineRadio6" value="option3" name="radioInline2">
-							<label for="inlineRadio6"> Gallary </label>
-						</div>
-					</div>
 
-					<div class="table-detail table-actions-bar" style="min-width: 60px;">
-						<a href="ecommerce-product-detail.html#" class="table-action-btn"><i class="md md-edit"></i></a>
-						<a href="ecommerce-product-detail.html#" class="table-action-btn"><i class="md md-close"></i></a>
-					</div>
+						<div class="table-detail">
+							<div class="radio radio-inline">
+								<input type="radio" id="inlineRadio4" value="option1" name="radioInline2" checked="">
+								<label for="inlineRadio4"> Main Image </label>
+							</div>
+							<div class="radio radio-inline">
+								<input type="radio" id="inlineRadio5" value="option2" name="radioInline2">
+								<label for="inlineRadio5"> Thumbnail </label>
+							</div>
+							<div class="radio radio-inline">
+								<input type="radio" id="inlineRadio6" value="option3" name="radioInline2">
+								<label for="inlineRadio6"> Gallary </label>
+							</div>
+						</div>
 
-				</div>
-			@endforeach
+						<div class="table-detail table-actions-bar" style="min-width: 60px;">
+							<a href="ecommerce-product-detail.html#" class="table-action-btn"><i class="md md-edit"></i></a>
+							<a href="ecommerce-product-detail.html#" class="table-action-btn"><i class="md md-close"></i></a>
+						</div>
+
+					</div>
+				@endforeach
+			@endif
 
 			<div class="text-center m-t-30">
 				<div class="fileupload btn btn-purple btn-md w-md waves-effect waves-light">

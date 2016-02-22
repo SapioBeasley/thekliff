@@ -12,7 +12,6 @@
                             <th>Order Date</th>
                             <th>Order Number</th>
                             <th>Amount</th>
-                            <th style="min-width: 80px;">Action</th>
                         </tr>
                     </thead>
 

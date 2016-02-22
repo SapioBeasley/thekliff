@@ -315,34 +315,6 @@
     </section>
     <!-- body content -->
 
-    <!-- pagination -->
-    <section>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="main-pagination clearfix">
-
-                    <!-- prev -->
-                    <div class="col-md-6">
-                        <div class="text-left">
-                            <a href="blog-single.html#" class="active"><i class="fa fa-long-arrow-left"></i> BEAUTIFUL WINTER WITH THEKLIFF</a>
-                        </div>
-                    </div>
-                    <!-- .prev -->
-
-                    <!-- next -->
-                    <div class="col-md-6">
-                        <div class="text-right">
-                            <a href="blog-single.html#">OUR TRIP TO FASHION WEEK <i class="fa fa-long-arrow-right"></i></a>
-                        </div>
-                    </div>
-                    <!-- .next -->
-
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- .pagination -->
-
     <!-- section 5 -->
     <section>
         @include('includes.threeSectionCallToAction')

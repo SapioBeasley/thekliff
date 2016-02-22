@@ -9,12 +9,18 @@
 
 			@include('admin.includes.productForm')
 
+			<style type="text/css">
+				input[type=submit] {
+					background: transparent;
+					border: none
+				}
+			</style>
+
 			<div class="row">
 				<div class="col-sm-12">
 					<div class="text-center p-20">
-						<button type="button" class="btn w-sm btn-white waves-effect">Cancel</button>
-						<button type="button" class="btn w-sm btn-default waves-effect waves-light">Save</button>
-						<button type="button" class="btn w-sm btn-danger waves-effect waves-light">Delete</button>
+						{!! Form::submit('Create', ['class' => 'btn w-sm btn-default waves-effect waves-light']) !!}
+						<button type="button" class="btn w-sm btn-default waves-effect waves-light">Create</button>
 					</div>
 				</div>
 			</div>

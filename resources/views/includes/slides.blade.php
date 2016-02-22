@@ -2,7 +2,7 @@
 <div class="item active">
 	<div class="content">
 		<div class="media">
-			<img src="https://source.unsplash.com/all?fashion={{rand()}}" class="img-responsive slide-img" title="" alt=""/>
+			<img src="{{asset('images/slide1.jpg')}}" class="img-responsive slide-img" title="" alt=""/>
 		</div>
 	</div>
 	<div class="container">
@@ -22,7 +22,7 @@
 <div class="item">
 	<div class="content">
 		<div class="media">
-			<img src="https://source.unsplash.com/all?fashion={{rand()}}" class="img-responsive slide-img" title="" alt=""/>
+			<img src="{{asset('images/slide2.jpg')}}" class="img-responsive slide-img" title="" alt=""/>
 		</div>
 	</div>
 	<div class="container">

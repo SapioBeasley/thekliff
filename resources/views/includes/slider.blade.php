@@ -21,14 +21,14 @@
 	<!-- slider -->
 
 	<!-- controls -->
-	<div class="slider-controls clearfix hidden-xs">
+	<!-- <div class="slider-controls clearfix hidden-xs">
 		<a class="previous-slide" href="index.html#home-carousel" role="button" data-slide="prev">
 			<i class="fa fa-long-arrow-left"></i> SUMMER DISCOUNT 50%
 		</a>
 		<a class="next-slide" href="index.html#home-carousel" role="button" data-slide="next"> WINTER COLLECTION
 			<i class="fa fa-long-arrow-right"></i>
 		</a>
-	</div>
+	</div> -->
 	<!-- .controls -->
 
 </div>
