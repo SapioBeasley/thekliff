@@ -22,10 +22,21 @@ class ShopController extends Controller
 
 	public function show($id)
 	{
-		$product = CrudHelper::show(new \App\Product, 'id', $id)->first();
+		$product = CrudHelper::show(new \App\Product, 'id', $id, ['categories', 'images'])->first()->toArray();
+
+		$categories = $product['categories'];
+		$images = $product['images'];
+
+		foreach ($categories as $category) {
+			$productCategories[] = $category['category'];
+		}
+
+		$productCategories = implode(', ', $productCategories);
 
 		return view('shop.shopSingle')->with([
-			'product' => $product
+			'product' => $product,
+			'productCategories' => $productCategories,
+			'images' => $images
 		]);
 	}
 }
