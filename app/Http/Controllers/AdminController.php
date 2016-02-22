@@ -134,6 +134,12 @@ class AdminController extends Controller
         ]);
     }
 
+    public function showSingleOrder($orderNumber)
+    {
+        $order = CrudHelper::show(new \App\Order, 'order_number', $orderNumber, ['products'])->first();
+        dd($order);
+    }
+
     public function updateProducts(Request $request, $id)
     {
         dd($request);
