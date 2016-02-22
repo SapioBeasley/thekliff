@@ -21,29 +21,39 @@
 			];
 
 			$subCategories = [
-				'tops',
-				'sets',
-				'denim',
-				'bottoms',
-				'sweaters',
-				'jackets',
-				'dresses',
-				'jump suits',
-				'pants',
-				'shorts',
+				'mens tops',
+				'womens tops',
+				'womens sets',
+				'womens denim',
+				'mens denim',
+				'womens bottoms',
+				'womens sweaters',
+				'mens sweaters',
+				'womens jackets',
+				'mens jackets',
+				'womens dresses',
+				'womens jump suits',
+				'mens pants',
+				'mens shorts',
+				'new arivals mens',
+				'accessories mens',
+				'accessories women',
+				'new arivals women',
+				'sales women',
+				'sales mens',
 			];
 
 			foreach ($topLevelCategories as $topLevelCategory) {
 				$category = CrudHelper::store(new App\Category, [
 					'category' => $topLevelCategory,
-					'is_sub_cat' => 1
+					'is_sub_cat' => 0
 				]);
 			}
 
 			foreach ($subCategories as $subCategory) {
 				$category = CrudHelper::store(new App\Category, [
 					'category' => $subCategory,
-					'is_sub_cat' => 0
+					'is_sub_cat' => 1
 				]);
 			}
 		}
