@@ -14,20 +14,42 @@ class OrdersTableSeeder extends Seeder
 	public function run()
 	{
 		$orderMake = [
-			'8',
-			'7',
-			'6',
-			'5',
-			'4',
-			'3',
-			'2',
-			'1',
+			[
+				'amount' => rand(2, 14) * 5.9,
+				'order_number' => str_random(25)
+			],
+			[
+				'amount' => rand(2, 14) * 5.9,
+				'order_number' => str_random(25)
+			],
+			[
+				'amount' => rand(2, 14) * 5.9,
+				'order_number' => str_random(25)
+			],
+			[
+				'amount' => rand(2, 14) * 5.9,
+				'order_number' => str_random(25)
+			],
+			[
+				'amount' => rand(2, 14) * 5.9,
+				'order_number' => str_random(25)
+			],
+			[
+				'amount' => rand(2, 14) * 5.9,
+				'order_number' => str_random(25)
+			],
+			[
+				'amount' => rand(2, 14) * 5.9,
+				'order_number' => str_random(25)
+			],
+			[
+				'amount' => rand(2, 14) * 5.9,
+				'order_number' => str_random(25)
+			],
 		];
 
-		foreach ($orderMake as $go) {
-			$order = CrudHelper::store(new App\Order,  [
-				'amount' => rand(2, 14) * 5.9,
-			]);
+		foreach ($orderMake as $order) {
+			$order = CrudHelper::store(new App\Order,  $order);
 
 			$order = CrudHelper::show(new App\Order, 'id', $order['id'])->first();
 
