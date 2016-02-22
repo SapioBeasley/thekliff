@@ -1,25 +1,17 @@
 ## ToDo
-- [ ] Link facebook in footer
 - [ ] Create Logo
 - [ ] Integrate paypal
 - [ ] integrate easypost
-- [ ] Put shipping costs in tables
 - [ ] Paypal split payments
 - [ ] remove blog links from single product
 - [ ] customer shipping or billing address
 - [ ] customers orders page
 - [ ] customer track order (easypost)
-- [ ] Set up newsletter box on home page
 - [ ] change 'THIS IS BACKGROUND COLOR' to say something more appropriate
-- [ ] add in stock/out of stock option to products
-- [ ] add color/size/qty options to products
 - [ ] add to cart button on single product ajax to cart
 - [ ] cart dropdown ajax to request order information
-- [ ] add Type, Fabric,  Sleeves, Neck, Fit, Length, Color to products
-- [ ] Link women box to women
-- [ ] Link men box to men
+
 - [ ] product save and delet button function
-- [ ] option to add user avatar
 - [ ] link header text to proper location
 - [ ] if admin logs in, redirect to admin dashboard else redirect to user account manage
 - [ ] in admin, upload images to products
@@ -32,6 +24,15 @@
 - [ ] validation and error checking for login form
 - [ ] validation and error checking for registration
 
+### Can Do after Launch
+- [ ] Link facebook in footer
+- [ ] Put shipping costs in tables
+- [ ] Set up newsletter box on home page
+- [ ] add in stock/out of stock option to products
+- [ ] add color/size/qty options to products
+- [ ] add Type, Fabric,  Sleeves, Neck, Fit, Length, Color to products
+- [ ] option to add user avatar
+
 ### Done
 - [x] Remove Blog
 - [x] list product categories on single product
@@ -39,6 +40,8 @@
 - [x] Save full url to product images
 - [x] link order number to order show page
 - [x] relate products to orders
+- [x] Link women box to women
+- [x] Link men box to men
 - [x] list product images in admin product edit
 - [x] Remove clear
 - [x] keep footer blog links on about page?
