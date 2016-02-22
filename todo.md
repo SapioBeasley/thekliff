@@ -10,7 +10,6 @@
 - [ ] change 'THIS IS BACKGROUND COLOR' to say something more appropriate
 - [ ] add to cart button on single product ajax to cart
 - [ ] cart dropdown ajax to request order information
-
 - [ ] product save and delet button function
 - [ ] link header text to proper location
 - [ ] if admin logs in, redirect to admin dashboard else redirect to user account manage
