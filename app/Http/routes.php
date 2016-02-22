@@ -100,6 +100,7 @@ Route::group(['middleware' => 'web'], function () {
 	Route::group(['prefix' => 'admin'], function () {
 		Route::get('/', 'AdminController@dashboard');
 		Route::get('/orders', 'AdminController@showOrders');
+		Route::get('/orders/{orderNumber}', 'AdminController@showSingleOrder');
 		Route::get('/products', 'AdminController@showProducts');
 
 		Route::put('/products/{id}/update', [
