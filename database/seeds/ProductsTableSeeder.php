@@ -38,11 +38,22 @@ class ProductsTableSeeder extends Seeder
 
 			$product = CrudHelper::show(new App\Product, 'id', $product['id'])->first();
 
-			$category = (string) rand(1, 10);
-			$images = (string) rand(1, 10) . ',' . rand(1, 10) . ',' . rand(1, 10) . ',' . rand(1, 10) . ',' . rand(1, 10);
+			$category = [
+				rand(1, 10),
+				rand(1, 10),
+				rand(1, 10)
+			];
 
-			$product->categories()->sync([$category]);
-			$product->images()->sync([$images]);
+			$images = [
+				rand(1, 10),
+				rand(1, 10),
+				rand(1, 10),
+				rand(1, 10),
+				rand(1, 10)
+			];
+
+			$product->categories()->sync($category);
+			$product->images()->sync($images);
 		}
 	}
 }
