@@ -3,16 +3,11 @@
 - [ ] Integrate paypal
 - [ ] integrate easypost
 - [ ] Paypal split payments
-- [ ] remove blog links from single product
-- [ ] customer shipping or billing address
 - [ ] customers orders page
 - [ ] customer track order (easypost)
 - [ ] change 'THIS IS BACKGROUND COLOR' to say something more appropriate
 - [ ] cart dropdown ajax to request order information
 - [ ] product save and delet button function
-- [ ] link header text to proper location
-- [ ] Add products to cart via session
-- [ ] Session saves for 24 hours
 - [ ] if admin logs in, redirect to admin dashboard else redirect to user account manage
 - [ ] in admin, upload images to products
 - [ ] edit and delete buttons on orders functioning
@@ -45,6 +40,11 @@
 - [x] Link men box to men
 - [x] list product images in admin product edit
 - [x] Remove clear
+- [x] remove blog links from single product
+- [x] customer shipping or billing address
+- [x] link header text to proper location
+- [x] Add products to cart via session
+- [x] Session saves for 24 hours
 - [x] keep footer blog links on about page?
 - [x] place total orders on dashboard
 - [x] Get subcategories working
