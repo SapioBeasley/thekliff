@@ -8,10 +8,11 @@
 - [ ] customers orders page
 - [ ] customer track order (easypost)
 - [ ] change 'THIS IS BACKGROUND COLOR' to say something more appropriate
-- [ ] add to cart button on single product ajax to cart
 - [ ] cart dropdown ajax to request order information
 - [ ] product save and delet button function
 - [ ] link header text to proper location
+- [ ] Add products to cart via session
+- [ ] Session saves for 24 hours
 - [ ] if admin logs in, redirect to admin dashboard else redirect to user account manage
 - [ ] in admin, upload images to products
 - [ ] edit and delete buttons on orders functioning
@@ -25,6 +26,7 @@
 
 ### Can Do after Launch
 - [ ] Link facebook in footer
+- [ ] add to cart button on single product ajax to cart
 - [ ] Put shipping costs in tables
 - [ ] Set up newsletter box on home page
 - [ ] add in stock/out of stock option to products
@@ -75,3 +77,4 @@
 - [ ] Need facebook link
 - [ ] get content for contact page
 - [ ] Get proper contact and hour information
+- [ ] Need a list of countries planning to ship to
