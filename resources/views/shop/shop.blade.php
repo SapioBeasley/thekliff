@@ -43,7 +43,7 @@
                                                 <img src="{{$product['images'][0]['image_url']}}" class="img-responsive" title="" alt=""/>
                                             </a>
                                             <div class="product-button">
-                                                <a href="{{route('shop.show', $product['id'])}}">ADD TO CART</a>
+                                                <a href="{{route('shop.addToCart', 'product=' . $product['id'])}}">ADD TO CART</a>
                                             </div>
                                         </div>
                                         <div class="product-title">
@@ -56,6 +56,8 @@
                                 </div>
                             </div>
                         @endforeach
+
+                        {{$products->links()}}
 
                     </div>
                 </div>

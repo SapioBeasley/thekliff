@@ -47,19 +47,18 @@
 
 				<!-- cart -->
 				<div class="cart">
-					<a href="#" class="hidden-xs"><i class="fa fa-shopping-cart"></i> 0 - $0.00</a>
-					<a href="#" class="hidden-md hidden-sm hidden-lg">
+					<a href="{{route('cart.index')}}" class="hidden-xs"><i class="fa fa-shopping-cart"></i>{{isset(Session::get('orderDetails')['products']) ? count(Session::get('orderDetails')['products']) : '0'}} - ${{isset(Session::get('orderDetails')['orderAmount']) ? money_format('%i', Session::get('orderDetails')['orderAmount']) : '0.00'}}</a>
+					<a href="{{route('cart.index')}}" class="hidden-md hidden-sm hidden-lg">
 						<i class="fa fa-shopping-cart"></i>
 					</a>
 				</div>
 				<!-- .cart -->
 
-				<!-- cart dropdown -->
+				<!-- cart dropdown
 				<div class="cart-dropdown">
 
 					@include('includes.emptyCartDropDown')
 
-					<!-- cart buttons -->
 					<nav class="cart-buttons clearfix">
 						<ul>
 							<li class="hidden-xs">
@@ -73,10 +72,9 @@
 							</li>
 						</ul>
 					</nav>
-					<!-- cart buttons -->
 
 				</div>
-				<!-- .cart dropdown -->
+				.cart dropdown -->
 
 				<!-- cart -->
 				<nav class="sign-up-dropdown">

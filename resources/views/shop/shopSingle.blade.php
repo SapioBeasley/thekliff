@@ -13,7 +13,7 @@
 
                 <!-- page title image -->
                 <div class="image">
-                    <img src="{{url('images/slide-5.jpg')}}" class="img-responsive" title="" alt=""/>
+                    <img src="https://source.unsplash.com/random/1600x600?nature" class="img-responsive" title="" alt=""/>
                 </div>
                 <!-- .page title image -->
 
@@ -99,7 +99,7 @@
                                     <!-- .select -->
 
                                     <!-- select -->
-                                    <div class="select-box">
+                                    <!-- <div class="select-box">
                                         <label>SIZE: <a href="#" data-toggle="modal" data-target="#sizeModal"><i class="fa fa-info-circle"></i></a>
                                         </label>
                                         <select>
@@ -110,21 +110,21 @@
                                             <option>M</option>
                                             <option>S</option>
                                         </select>
-                                    </div>
+                                    </div> -->
                                     <!-- .select -->
 
                                     <!-- select -->
-                                    <div class="select-box">
+                                    <!-- <div class="select-box">
                                         <label>QTY:</label>
                                         <input type="number" value="0" step="1"/>
-                                    </div>
+                                    </div> -->
                                     <!-- .select -->
 
                                     <hr/>
 
                                     <!-- add to cart -->
                                     <div class="select-box button">
-                                        <input name="submit" type="submit" id="addtocart" class="submit active" value="ADD TO CART">
+                                        <a href="{{route('shop.addToCart', 'product=' . $product['id'])}}" style="display: inline-block;font-size: 12px;color: #242424;background: #fff;font-weight: 900;border: 2px solid #242424;padding: 10px 25px;letter-spacing: 4px;margin-top: 0;margin-bottom: 0;-moz-transition: all 0.3s ease-in-out;-webkit-transition: all 0.3s ease-in-out;-o-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;border-radius: 0;">ADD TO CART</a>
                                     </div>
                                     <!-- .add to cart -->
 

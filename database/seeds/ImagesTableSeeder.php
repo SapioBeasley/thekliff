@@ -17,12 +17,14 @@ class ImagesTableSeeder extends Seeder
 
         do {
 
-        	$imageUrl = [
-        		'image_url' => 'https://source.unsplash.com/featured/783x1008?nature=' . rand()
+        	$image = [
+        	   'image_url' => 'https://source.unsplash.com/featured/783x1008?nature=' . rand(1,99),
+                'is_main' => rand(0,1)
         	];
 
-        	$image = CrudHelper::store(new App\Image, $imageUrl);
-		$i++;
+        	$image = CrudHelper::store(new App\Image, $image);
+	$i++;
+
         } while ($i <= 50);
     }
 }

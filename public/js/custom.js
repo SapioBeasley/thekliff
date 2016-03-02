@@ -16,12 +16,12 @@ jQuery(document).ready(function ($) {
         $(this).closest('.header-wrapper').children(".menu-dropdown").toggleClass("active");
         $(this).children('.icon').delay(300).toggleClass('open');
     });
-    $('.cart a').on('click', function (e) {
-        e.preventDefault();
-        $('.menu-dropdown, .sign-up-dropdown, .filter-dropdown').removeClass('active');
-        $('.menu-trigger a').children('.icon').delay(300).removeClass('open');
-        $(this).closest('.header-wrapper').children(".cart-dropdown").toggleClass("active");
-    });
+    // $('.cart a').on('click', function (e) {
+    //     e.preventDefault();
+    //     $('.menu-dropdown, .sign-up-dropdown, .filter-dropdown').removeClass('active');
+    //     $('.menu-trigger a').children('.icon').delay(300).removeClass('open');
+    //     $(this).closest('.header-wrapper').children(".cart-dropdown").toggleClass("active");
+    // });
     $('.sign-up a').on('click', function (e) {
         e.preventDefault();
         $('.menu-dropdown, .cart-dropdown, .filter-dropdown').removeClass('active');

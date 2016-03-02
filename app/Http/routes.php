@@ -37,9 +37,24 @@ Route::group(['middleware' => 'web'], function () {
 		'uses' => 'CartController@index'
 	]);
 
+	Route::get('/cancelOrder', [
+		'as' => 'cancelOrder',
+		'uses' => 'CartController@cancelOrder'
+	]);
+
+	Route::post('/purchaseOrder', [
+		'as' => 'purchaseOrder',
+		'uses' => 'CheckoutController@purchaseOrder'
+	]);
+
 	Route::get('/shop', [
 		'as' => 'shop.index',
 		'uses' => 'ShopController@index'
+	]);
+
+	Route::get('/add-to-cart', [
+		'as' => 'shop.addToCart',
+		'uses' => 'ShopController@addToCart'
 	]);
 
 	Route::get('/shop/{id}', [

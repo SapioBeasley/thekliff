@@ -14,6 +14,9 @@ class ProductsTableSeeder extends Seeder
 	public function run()
 	{
 		$productMake = [
+			'15',
+			'14',
+			'13',
 			'12',
 			'11',
 			'10',

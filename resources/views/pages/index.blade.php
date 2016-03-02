@@ -107,7 +107,7 @@
 
                                                             <!-- add to cart -->
                                                             <div class="product-button">
-                                                                <a href="{{route('shop.show', $product['id'])}}">ADD TO CART</a>
+                                                                <a href="{{route('shop.addToCart', 'product=' . $product['id'])}}">ADD TO CART</a>
                                                             </div>
                                                             <!-- .add to cart -->
 

@@ -14,7 +14,7 @@
 
                     <!-- page title image -->
                     <div class="image">
-                        <img src="images/slide-5.jpg" class="img-responsive" title="" alt=""/>
+                        <img src="{{asset('images/noProducts.jpg')}}" class="img-responsive" title="" alt=""/>
                     </div>
                     <!-- .page title image -->
 
@@ -64,7 +64,7 @@
                                     <div class="panel-title">
                                         <div class="row">
                                             <div class="col-xs-12 text-right">
-                                                <a href="index.html" class="content-button black-style">BACK TO SHOPPING</a>
+                                                <a href="{{route('shop.index')}}" class="content-button black-style">BACK TO SHOPPING</a>
                                             </div>
                                         </div>
                                     </div>
@@ -72,61 +72,36 @@
                             </div>
                             <div class="panel-body">
 
-                                <!-- cart-item -->
-                                <div class="row">
-                                    <div class="cart-item">
-                                        <div class="cart-item-remove">
-                                            <a href="shopping-cart.html#">x</a>
-                                        </div>
-                                        <div class="cart-item-content clearfix">
-                                            <div class="col-xs-1 no-padding"><img class="img-responsive"
-                                                                                  alt="product-image"
-                                                                                  src="images/cart-2.jpg">
+                            @if (! is_null($products))
+                                @foreach ($products as $product)
+                                    <!-- cart-item -->
+                                    <div class="row">
+                                        <div class="cart-item">
+                                            <div class="cart-item-remove">
+                                                <a href="shopping-cart.html#">x</a>
                                             </div>
-                                            <div class="col-xs-5">
-                                                <h4>Great Slim Dress</h4>
-                                            </div>
-                                            <div class="col-md-5 col-xs-4 text-right">
-                                                <h6>25.00 X</h6>
-                                            </div>
-                                            <div class="col-md-1 col-xs-2">
-                                                <div class="select-box">
-                                                    <input type="number" value="0" step="1" min="0">
+                                            <div class="cart-item-content clearfix">
+                                                <div class="col-xs-1 no-padding">
+                                                    <img class="img-responsive"  alt="product-image" src="{{$product['images'][0]['image_url']}}">
                                                 </div>
+                                                <div class="col-xs-5">
+                                                    <h4>{{$product['name']}}</h4>
+                                                </div>
+                                                <div class="col-md-5 col-xs-4 text-right">
+                                                    <h6>{{money_format('%i', $product['price'])}} X</h6>
+                                                </div>
+                                                <!-- <div class="col-md-1 col-xs-2">
+                                                    <div class="select-box">
+                                                        <input type="number" value="1" step="1" min="0">
+                                                    </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <!-- .cart-item -->
-
-                                <!-- cart-item -->
-                                <div class="row">
-                                    <div class="cart-item">
-                                        <div class="cart-item-remove">
-                                            <a href="shopping-cart.html#">x</a>
-                                        </div>
-                                        <div class="cart-item-content clearfix">
-                                            <div class="col-xs-1 no-padding"><img class="img-responsive"
-                                                                                  alt="product-image"
-                                                                                  src="images/cart-3.jpg">
-                                            </div>
-                                            <div class="col-xs-5">
-                                                <h4>Jeans Nurman Black</h4>
-                                            </div>
-                                            <div class="col-md-5 col-xs-4 text-right">
-                                                <h6>316.00 X</h6>
-                                            </div>
-                                            <div class="col-md-1 col-xs-2">
-                                                <div class="select-box">
-                                                    <input type="number" value="0" step="1" min="0">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- .cart-item -->
-
-                                <div class="row">
+                                    <!-- .cart-item -->
+                                @endforeach
+                            @endif
+                                <!-- <div class="row">
                                     <div class="update-cart clearfix">
                                         <div class="text-right">
                                             <div class="col-md-10 col-xs-7">
@@ -139,16 +114,16 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                             <div class="panel-footer">
                                 <div class="row text-right">
                                     <div class="to-checkout">
                                         <div class="col-md-9 col-xs-6 total">
-                                            <h4>Total <strong>$50.00</strong></h4>
+                                            <h4>Total <strong>${{money_format('%i', $orderAmount)}}</strong></h4>
                                         </div>
                                         <div class="col-md-3 col-xs-6">
-                                            <a href="shopping-cart.html#" class="s-cart-btn red-btn">CHECKOUT</a>
+                                            <a href="{{route('checkout.index')}}" class="s-cart-btn red-btn">CHECKOUT</a>
                                         </div>
                                     </div>
                                 </div>
