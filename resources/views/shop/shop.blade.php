@@ -57,7 +57,9 @@
                             </div>
                         @endforeach
 
-                        {{$products->links()}}
+                        @if(isset($products['per_page']))
+                          {{$products->links()}}
+                        @endif
 
                     </div>
                 </div>
